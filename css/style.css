@@ -1,0 +1,169 @@
+/*General*/
+
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+
+/*Pagina Home*/
+
+.solid {
+    border-top: 5px solid white;
+}
+
+.container {
+    padding: 35px;
+}
+
+.ajust {
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+.github {
+    color:#df4759;
+}
+
+.location {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    color:#df4759;
+}
+
+.martin {
+    width: 200px;
+}
+
+.arg {
+    width: 120px;
+}
+
+
+/*Pagina About*/
+
+.gokukid {
+    width: 150px;
+}
+
+.gohan {
+    width: 230px;
+}
+
+.titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #df4759;
+
+}
+
+.parrafo {
+    text-align: justify;
+
+}
+
+.redes {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.list {
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.fb {
+    background-color: #3b5998;
+}
+
+.tw {
+    background-color: #55acee;
+}
+
+.ig {
+    background-color: #ac2bac;
+}
+
+.lk {
+    background-color: #0082ca;
+}
+
+
+/*Pagina IEN*/
+
+.titulo-ien {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#df4759;
+}
+
+.info-ien {
+    color: white;
+}
+
+.ienimg {
+    width: 160px;
+    margin-bottom: 35px;
+}
+
+
+/*Carousel DBZ*/
+
+#carousel-dbz {
+    width: 250px;
+}
+
+.carousel-heading {
+    text-transform: uppercase;
+}
+
+.letras-dbz {
+    width: 270px;
+}
+
+.dragon-ball {
+    width: 48px;
+}
+
+.animacion-ball {
+    animation-name: bolaanimada;
+    animation-duration: 4s;
+    animation-delay: 3ms;
+}
+
+@keyframes bolaanimada {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+    
+    100% {
+        transform: scale(1.6);
+    }
+}
+
+.animacion-ball:hover {
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
