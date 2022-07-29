@@ -1,0 +1,75 @@
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #CDC4C4;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-personalizado{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 25px 12px 25px;
+    border-radius: 30px;
+    animation-name: animacionyt;
+    animation-duration: 4s;
+    animation-delay: 50ms;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+.boton-personalizado:hover {
+    animation-play-state: paused;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animacionyt {
+    0% {
+        transform: scale(1);
+        background-color: white;
+    }
+
+    50% {
+        transform: scale(1.5);
+        background-color: rgb(113, 240, 198);
+    }
+    
+    100% {
+        transform: scale(2);
+        background-color: aqua;
+    }
+}
+
+
+.tube {
+    background-color: red;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 3px;
+    border-style: hidden;
+    border-radius: 30px;
+}
+
